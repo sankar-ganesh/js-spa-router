@@ -1,0 +1,9 @@
+.DS_Store
+
+# compiled output
+/dist
+/.nyc_output
+/coverage
+
+# dependencies
+/node_modules
