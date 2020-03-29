@@ -1,6 +1,6 @@
 {
   "name": "js-spa-router",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple JS Routing Framework for SPA",
   "main": "index.js",
   "author": "Sankar Ganesh <sankar.ganesh@freshworks.com>",
@@ -14,7 +14,7 @@
   },
   "files": [
     "src",
-    "dist/jssparouter.js"
+    "dist/js_spa_router.js"
   ],
   "repository": {
     "type": "git",
@@ -47,6 +47,6 @@
     "webpack-cli": "^3.3.10"
   },
   "dependencies": {
-    "js-finite-state-machine": "^0.0.5"
+    "js-finite-state-machine": "^0.1.0"
   }
 }

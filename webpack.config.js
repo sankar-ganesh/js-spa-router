@@ -4,7 +4,7 @@ const webpackOption = {
 	  entry: './index.js',
 	  output: {
 	    	path: path.resolve(__dirname, 'dist'),
-	    	filename: 'jssparouter.js',
+	    	filename: 'js_spa_router.js',
 	  },
     module: {
         rules: webpack_rules

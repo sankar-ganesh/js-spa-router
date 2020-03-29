@@ -1,5 +1,3 @@
-import JSSPARouter from './src/jssparouter';
-import JSSPARoute from './src/jssparoute';
+import JSSPARouter from './src/js_spa_router';
 
 window.JSSPARouter = JSSPARouter;
-window.JSSPARoute = JSSPARoute;
