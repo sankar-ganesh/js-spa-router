@@ -123,6 +123,14 @@ var JSSPARouter = (function() {
     return RouterMap.getCurrentRoute();
   };
 
+  SPARouter.prototype.transitions = function() {
+    return RouterMap.transitions();
+  };
+
+  SPARouter.prototype.states = function() {
+    return RouterMap.states();
+  };
+
   return new SPARouter();
 })();
 

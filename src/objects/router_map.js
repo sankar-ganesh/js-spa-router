@@ -102,6 +102,14 @@ var RouterMap = (function() {
 		}
 	};
 
+	RouterM.prototype.transitions = function() {
+		return Router.prototype.transitions();
+	};
+
+	RouterM.prototype.states = function() {
+		return Router.prototype.states();
+	};
+
 	RouterM.prototype.getInstance = function() {
 		return instance || new RouterM();
 	};

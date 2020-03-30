@@ -146,4 +146,12 @@ Router.prototype.routerCallback = function(type, transition, payload) {
 	}
 };
 
+Router.prototype.transitions = function() {
+	return Transition.prototype.getEvents();
+};
+
+Router.prototype.states = function() {
+	return State.prototype.getEvents();
+};
+
 export default Router;
