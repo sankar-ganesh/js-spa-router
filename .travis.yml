@@ -12,6 +12,3 @@ before_install:
 
 after_success:
   - codecov --file coverage/lcov.info --disable search
-
-env:
-  - CODECOV_TOKEN="16b47f70-e0e0-4190-b314-f1142ef14b69"

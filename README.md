@@ -59,7 +59,6 @@ Every state get executed in a sequence of five phases. This will be super useful
    * @param {object} currentRoute The current route object
    */
   let callback = function(type, transition, currentRoute) {
-    // 
   };
 
   // Sample JS SPA Router Config Payload
