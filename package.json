@@ -47,6 +47,6 @@
     "webpack-cli": "^3.3.12"
   },
   "dependencies": {
-    "js-finite-state-machine": "^0.1.1"
+    "js-finite-state-machine": "^0.1.2"
   }
 }
