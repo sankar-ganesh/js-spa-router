@@ -1,6 +1,6 @@
 {
   "name": "js-spa-router",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Simple JS Routing Framework for SPA",
   "main": "index.js",
   "author": "Sankar Ganesh <sankar.ganesh@freshworks.com>",
